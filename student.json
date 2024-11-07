@@ -1,0 +1,58 @@
+[
+    {
+        "Name": "Goldwin",
+        "Age": 26,
+        "Gender": "Male",
+        "City": "Elankulam",
+        "Occupation": "Engineer",
+        "Image":"https://res.cloudinary.com/dyiffrkzh/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_400,q_auto,w_800/v1691665183/banbanjara/ybqz4yt4th4imebmnnex.avif"
+    },
+    {
+        "Name": "Alice",
+        "Age": 30,
+        "Gender": "Female",
+        "City": "New York",
+        "Occupation": "Designer",
+        "Image":"https://res.cloudinary.com/dyiffrkzh/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_400,q_auto,w_800/v1691665582/banbanjara/gxeggacmyejbjxdb2fap.jpg"
+    },
+    {
+        "Name": "Rahul",
+        "Age": 24,
+        "Gender": "Male",
+        "City": "Mumbai",
+        "Occupation": "Data Analyst",
+        "Image": "https://res.cloudinary.com/dyiffrkzh/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_400,q_auto,w_800/v1691665494/banbanjara/x1gvp0wzrjzroetypid5.jpg"
+    },
+        {
+        "Name": "Sophia",
+        "Age": 28,
+        "Gender": "Female",
+        "City": "London",
+        "Occupation": "Teacher",
+        "Image":"https://res.cloudinary.com/dyiffrkzh/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_400,q_auto,w_800/v1691665235/banbanjara/blijqhvvoffzgtbohgor.jpg"
+    },
+    {
+        "Name": "Liam",
+        "Age": 35,
+        "Gender": "Male",
+        "City": "Sydney",
+        "Occupation": "Doctor",
+        "Image":"https://res.cloudinary.com/dyiffrkzh/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_400,q_auto,w_800/v1691664779/banbanjara/a1vxexgrrhkhfgqftgaz.jpg"
+    },
+    {
+        "Name": "Fredwin",
+        "Age": 22,
+        "Gender": "Male",
+        "City": "Elankulam",
+        "Occupation": "Engineer",
+        "Image":"https://res.cloudinary.com/dyiffrkzh/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_400,q_auto,w_800/v1691664702/banbanjara/iylk0fzt654d8qswtmdp.jpg"
+    },
+    {
+        "Name": "Mala",
+        "Age": 22,
+        "Gender": "Female",
+        "City": "Elankulam",
+        "Occupation": "House Wife",
+        "Image":"https://res.cloudinary.com/dyiffrkzh/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_400,q_auto,w_800/v1691664990/banbanjara/jl9za5ojtk3hya7qvyz6.jpg"
+    }
+]

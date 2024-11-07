@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Data</title>
+</head>
+<body onload="getDetails();">
+
+<div id="json"></div>
+
+<script>
+    function getDetails() {
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.open('GET', "student.json", false);
+        xmlhttp.send();
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            var result = xmlhttp.responseText;
+            var data = '<table border="2px solid yellow">\
+                            <tr>\
+                                <th>Name</th>\
+                                <th>Age</th>\
+                                <th>Gender</th>\
+                                <th>City</th>\
+                                <th>Occupation</th>\
+                                <th>Images</th>\
+                            </tr>';
+            
+            var o = JSON.parse(result);
+            for (var i = 0; i < o.length; i++) {
+                data += '<tr>\
+                            <td>' + o[i]['Name'] + '</td>\
+                            <td>' + o[i]['Age'] + '</td>\
+                            <td>' + o[i]['Gender'] + '</td>\
+                            <td>' + o[i]['City'] + '</td>\
+                            <td>' + o[i]['Occupation'] + '</td>\
+                            <td style="width:10px";><img src=' + o[i]['Image'] +  '></td>\
+                         </tr>';
+            }
+            data += '</table>';
+            document.getElementById("json").innerHTML = data;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+        /*let user = '{"Name":"Goldwin","Age":26,"Gender":"Male"}';
+    
+        // Correct usage of JSON.parse
+        let people = JSON.parse(user);
+    
+        // Display the parsed object
+     
+        document.write(`Name: ${people.Name}, Age: ${people.Age}, Gender: ${people.Gender}<br>`);
+
+
+        let marks={
+            mark1:100,
+            mark2:98,
+            mark3:90,
+            mark4:89,
+            mark5:50
+        };
+
+        let str=JSON.stringify(marks);
+        document.write(str);
+*/
+
+    </script>
+    
+</body>
+</html>
